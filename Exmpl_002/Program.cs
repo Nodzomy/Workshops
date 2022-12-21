@@ -7,8 +7,8 @@
 
 
 
-int namber = new Random.Next(10, 100);
-Console.Writeline(namber);
+int namber = new Random().Next(10, 100);
+Console.WriteLine(namber);
 
 // if (namber /10 > namber % 10) Console.Writeline(namber /10);
 // else Console.Writeline(namber%10);
