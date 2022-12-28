@@ -27,4 +27,4 @@ else
 {
     max = c;
 }
-Console.WriteLine($"Ниабольшее {max} !");
+Console.WriteLine($"Наибольшее {max} !");
