@@ -4,7 +4,7 @@
 // 5 -> 1, 8, 27, 64, 125
 
 Console.Write("Сколько кубов должно быть в таблице: ");
-int number = Convert.ToInt32(Console.ReadLine());3
+int number = Convert.ToInt32(Console.ReadLine());
 
 Console.Write($"{number} ->");
 
