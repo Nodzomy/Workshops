@@ -11,13 +11,15 @@ Console.Write($"{number} ->");
 int counter = 1;
 bool isFirst = true;
 
-while (counter <= number) {
-    if (!isFirst) {
+while (counter <= number)
+{
+    if (!isFirst)
+    {
         Console.Write(",");
     }
 
     int result = Convert.ToInt32(Math.Pow(counter, 3));
-    
+
     Console.Write($" {result}");
 
     counter++;
