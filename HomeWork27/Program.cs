@@ -9,11 +9,11 @@ Console.Write($"Сумма цифр в числе {numberA} будет равн�
 
 int Sum(int chislo)
 {
-    int result = chislo % 10;
-    while (chislo / 10 != 0)
+    int result = 0;
+    while (chislo > 0)
     {
-        chislo = chislo / 10;
         result += chislo % 10;
+        chislo = chislo / 10;  
     }
     return result;
 
