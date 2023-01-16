@@ -11,7 +11,7 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 
 int Stepen(int chislo, int step)
 {
-    if step == 0 return 1;
+    if (step == 0) return 1;
     int result = chislo;
     for (int i = 1; i < step; i++)
     {
